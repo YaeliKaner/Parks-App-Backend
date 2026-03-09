@@ -202,7 +202,7 @@ public class WebSecurityConfig {
                                 .requestMatchers("/api/parks/getParks").permitAll()
                                 .requestMatchers("/api/parks/getParkById/**").permitAll()
                                 .requestMatchers("/api/parks/getParkByNameAndCity/**").permitAll()
-                                .requestMatchers("/api/parks/getParksOrderByRecommended").permitAll()
+                                .requestMatchers("/api/parks/recommended").permitAll()
                                 .requestMatchers("/api/parks/search").permitAll()
                                 .requestMatchers("/api/parks/chat").permitAll()
 //                                        .requestMatchers("/api/parks/**").permitAll()
